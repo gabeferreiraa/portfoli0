@@ -255,8 +255,8 @@ export default function Page() {
                       rel="noreferrer noopener"
                       aria-label="Proconex (opens in a new tab)"
                     >
-                      Proconex
-                    </a>
+                      Proconex.
+                    </a>{" "}
                     Throughout my time as a developer I&apos;ve been able to
                     develop software across different applications, whether it
                     was trouble shooting or starting from zero, there was always
