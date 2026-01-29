@@ -55,8 +55,8 @@ export default function Page() {
                 </h3>
 
                 <p className="mt-4 max-w-xs leading-normal text-neutral-light">
-                  I build accessible, pixel-perfect digital experiences for the
-                  web.
+                  I bring your idea to life, and opportunity keeps you growing
+                  beyond delivery
                 </p>
 
                 <nav
@@ -241,151 +241,31 @@ export default function Page() {
 
                 <div className="text-neutral-light">
                   <p className="mb-4">
-                    I'm a frontend engineer with a specialty in web
-                    accessibility, focused on building pixel-perfect, intuitive
-                    user interfaces. I enjoy working at the intersection of
-                    design and engineering, where great user experience meets
-                    robust, clean, and scalable code.
+                    I&apos;m a UI/UX engineer who is driven to deliver
+                    accessible, unique, and meticulous applications. I
+                    specialize in web-accessibility, design, development and
+                    optimization of applications
                   </p>
                   <p className="mb-4">
                     Currently, I&apos;m a senior frontend engineer at{" "}
                     <a
                       className="font-medium text-neutral-white hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      href="https://www.klaviyo.com/"
+                      href="https://www.proconexdirect.com/"
                       target="_blank"
                       rel="noreferrer noopener"
-                      aria-label="Klaviyo (opens in a new tab)"
+                      aria-label="Proconex (opens in a new tab)"
                     >
-                      Klaviyo
+                      Proconex
                     </a>
-                    , where I work on the component library team to help
-                    maintain and evolve our design system. In this role, I lead
-                    accessibility efforts across components, tooling, and
-                    patterns, partnering closely with designers and engineers to
-                    ensure accessibility is part of our core architecture.
+                    Throughout my time as a developer I&apos;ve been able to
+                    develop software across different applications, whether it
+                    was trouble shooting or starting from zero, there was always
+                    an opportunity for success.
                   </p>
-                  <p className="mb-4">
-                    Previously, I've worked across a wide range of environments,
-                    from product studios to startups and large tech companies,
-                    including{" "}
-                    <a
-                      className="font-medium text-neutral-white hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      href="https://www.apple.com/apple-music/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="Apple (opens in a new tab)"
-                    >
-                      Apple
-                    </a>
-                    ,{" "}
-                    <a
-                      className="font-medium text-neutral-white hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      href="https://starry.com/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="Starry Internet (opens in a new tab)"
-                    >
-                      Starry Internet
-                    </a>
-                    , and{" "}
-                    <a
-                      className="font-medium text-neutral-white hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      href="https://upstatement.com/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="Upstatement (opens in a new tab)"
-                    >
-                      Upstatement
-                    </a>
-                    . Alongside my professional work, I also created an{" "}
-                    <a
-                      className="font-medium text-neutral-white hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="online video course (opens in a new tab)"
-                    >
-                      online video course
-                    </a>{" "}
-                    a few years ago which walks through building a real-world,
-                    API-driven application from scratch. These experiences have
-                    shaped how I think about building products that are both
-                    well-crafted and widely usable.
-                  </p>
+
                   <p>
-                    Outside of work, you can usually find me climbing, playing
-                    tennis, hanging out with my wife and two cats, or running
-                    around Hyrule searching for{" "}
-                    <span className="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-neutral-white">
-                      <span className="sr-only">Korok seeds</span>
-                      <span
-                        className="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]"
-                        aria-hidden="true"
-                      >
-                        K
-                      </span>
-                      <span
-                        className="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]"
-                        aria-hidden="true"
-                      >
-                        o
-                      </span>
-                      <span
-                        className="group-hover/korok:text-yellow-400 transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]"
-                        aria-hidden="true"
-                      >
-                        r
-                      </span>
-                      <span
-                        className="group-hover/korok:text-lime-400 transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]"
-                        aria-hidden="true"
-                      >
-                        o
-                      </span>
-                      <span
-                        className="group-hover/korok:text-green-400 transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]"
-                        aria-hidden="true"
-                      >
-                        k
-                      </span>
-                      <span
-                        className="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]"
-                        aria-hidden="true"
-                      >
-                        {" "}
-                      </span>
-                      <span
-                        className="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]"
-                        aria-hidden="true"
-                      >
-                        s
-                      </span>
-                      <span
-                        className="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]"
-                        aria-hidden="true"
-                      >
-                        e
-                      </span>
-                      <span
-                        className="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]"
-                        aria-hidden="true"
-                      >
-                        e
-                      </span>
-                      <span
-                        className="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]"
-                        aria-hidden="true"
-                      >
-                        d
-                      </span>
-                      <span
-                        className="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]"
-                        aria-hidden="true"
-                      >
-                        s
-                      </span>
-                    </span>
-                    .
+                    If you have any questions please reach out, and I&apos;ll
+                    respond as soon as I&apos;m available!
                   </p>
                 </div>
               </section>
