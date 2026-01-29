@@ -50,7 +50,7 @@ export function Button({
       }
       className={cn(
         // base
-        "group relative inline-flex items-center justify-center rounded-md font-medium",
+        "group relative inline-flex items-center justify-center rounded-xl font-medium",
         "select-none isolate",
         "transition-[transform,box-shadow,background-color,opacity] duration-200 ease-out",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2",

@@ -334,12 +334,13 @@ export default function Home() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 {["Email", "LinkedIn", "GitHub", "Resume"].map((x) => (
-                  <button
+                  <Button
                     key={x}
-                    className="rounded-full border border-neutral-white/15 bg-neutral-white/5 px-5 py-2 text-sm font-light text-neutral-white hover:bg-neutral-white/10 transition"
+                    className=" hover:bg-neutral-white/10 transition"
+                    variant="secondary"
                   >
                     {x}
-                  </button>
+                  </Button>
                 ))}
               </div>
             </div>

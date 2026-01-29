@@ -5,12 +5,12 @@ import { Inter } from "next/font/google";
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter", // optional but recommended
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
   title: "Gabriel Ferreira's Portfolio",
-  description: "...", // add in a desc later, enhance metadata for SEO
+  description: "...",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} `}>{children}</body>
+      <body className={`${inter.variable}`}>{children}</body>
     </html>
   );
 }
