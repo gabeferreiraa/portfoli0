@@ -21,16 +21,15 @@
   --color-background: var(--color-primary-dark);
   --color-foreground: var(--color-neutral-white);
 
-  /* Accessibility - Focus ring */
+  /* Focus ring */
   --color-focus: var(--color-tertiary-mid);
 
-  /* Spotlight effect */
-  --color-spotlight-rgb: 46 196 182; /* RGB values of tertiary-mid */
+  /* Spotlight effect (RGB triplet) */
+  --color-spotlight-rgb: 46 196 182;
 }
 
-/* Base styles for accessibility */
+/* Responsive typography */
 :root {
-  /* Responsive typography using clamp() for fluid scaling */
   --fs-xs: clamp(0.75rem, 0.5vw + 0.65rem, 0.875rem);
   --fs-sm: clamp(0.875rem, 0.6vw + 0.75rem, 1rem);
   --fs-base: clamp(1rem, 0.75vw + 0.875rem, 1.125rem);
@@ -38,12 +37,10 @@
   --fs-xl: clamp(1.875rem, 3vw + 1.25rem, 3.5rem);
   --fs-2xl: clamp(2.25rem, 4vw + 1.5rem, 4rem);
 
-  /* Line height for optimal readability - WCAG recommends 1.5 minimum */
   --lh-tight: 1.3;
   --lh-normal: 1.6;
   --lh-relaxed: 1.75;
 
-  /* Optimal line length for readability (45-75 characters) */
   --measure: 65ch;
 }
 
@@ -72,19 +69,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
-/* Ensure readable line lengths */
+/* Readable line lengths */
 p,
 li {
   max-width: var(--measure);
 }
 
-/* Accessible links - never rely on color alone */
+/* Accessible links */
 a {
   color: inherit;
-  text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
   text-decoration-color: rgba(46, 196, 182, 0.4);
@@ -96,7 +91,7 @@ a:focus {
   text-decoration-color: var(--color-tertiary-mid);
 }
 
-/* WCAG 2.1 compliant keyboard focus indicators */
+/* Focus styles */
 :focus {
   outline: 3px solid var(--color-focus);
   outline-offset: 3px;
@@ -111,7 +106,7 @@ a:focus {
   outline-offset: 3px;
 }
 
-/* Skip link - must be first focusable element */
+/* Skip link */
 .skip-link {
   position: absolute;
   top: 0;
@@ -130,7 +125,7 @@ a:focus {
   transform: translateY(0);
 }
 
-/* Spotlight layer - purely decorative */
+/* Spotlight (decorative) */
 .spotlight-bg {
   background: radial-gradient(
     650px circle at var(--spotlight-x, 50%) var(--spotlight-y, 50%),
@@ -139,7 +134,7 @@ a:focus {
   );
 }
 
-/* Respect prefers-reduced-motion */
+/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -154,54 +149,19 @@ a:focus {
   }
 }
 
-/* High contrast mode support */
-@media (prefers-contrast: high) {
-  :root {
-    --color-foreground: #ffffff;
-    --color-background: #000000;
-  }
-}
-
-/* Responsive heading sizes using clamp() */
-h1 {
-  font-size: var(--fs-2xl);
-  line-height: var(--lh-tight);
-  font-weight: 700;
-}
-
-h2 {
-  font-size: var(--fs-xl);
+/* h2 {
+  font-size: var(--fs-base);
   line-height: var(--lh-tight);
   font-weight: 600;
 }
 
 h3 {
-  font-size: var(--fs-lg);
-  line-height: var(--lh-normal);
-  font-weight: 600;
-}
-
-h4 {
   font-size: var(--fs-base);
   line-height: var(--lh-normal);
   font-weight: 600;
-}
+} */
 
-/* Better paragraph spacing */
-p {
-  margin-bottom: 1em;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-/* List spacing */
-li {
-  line-height: var(--lh-relaxed);
-}
-
-/* Screen reader only content */
+/* SR only */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -214,26 +174,14 @@ li {
   border-width: 0;
 }
 
-/* Ensure images don't overflow */
+/* Images */
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Better focus states for interactive elements */
-button:focus-visible,
-a:focus-visible {
-  outline: 3px solid var(--color-focus);
-  outline-offset: 3px;
-}
-
-/* Ensure text remains visible during font loading */
-body {
-  font-display: swap;
-}
-
-/* Main wrapper for content */
+/* Wrapper */
 #__next {
   min-height: 100vh;
   width: 100%;
