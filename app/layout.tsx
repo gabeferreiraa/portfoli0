@@ -20,9 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <a href="#content" className="skip-link">
+      {/* <a href="#content" className="skip-link">
         Skip to main content
-      </a>
+      </a> */}
       <body className={`${inter.variable}`}>{children}</body>
     </html>
   );
