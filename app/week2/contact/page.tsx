@@ -552,7 +552,7 @@ export default function ContactPage() {
                   </p>
                   <address className="mt-6 not-italic">
                     <a
-                      href="mailto:you@example.com"
+                      href="mailto:gferreira0404@gmail.com"
                       className="font-medium text-neutral-light hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
                       aria-label="Send email to Gabriel Ferreira"
                     >
