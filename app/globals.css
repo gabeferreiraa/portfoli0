@@ -200,14 +200,14 @@ img {
   }
 }
 
-/* Dark/Light Mode Support */
+/* Dark/Light Mode Support
 @media (prefers-color-scheme: light) {
   :root {
     --color-background: #ffffff;
     --color-foreground: var(--color-neutral-black);
     --color-neutral-light: #475569;
   }
-}
+} */
 
 /* Print Styles */
 @media print {
