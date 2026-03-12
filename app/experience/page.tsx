@@ -21,7 +21,7 @@ const experiences = [
     company: "Proconex",
     url: "https://www.proconexdirect.com/",
     description:
-      "Assisted the development team in building internal tools and updating the company website. Gained foundational experience in HTML, CSS, JavaScript, and version control. Participated in code reviews and agile sprint ceremonies.",
+      "Assisted the development team in building internal tools and updating the company website. Gained foundational experience in C#, SQL, Typescript, and version control. Participated in code reviews and agile sprint ceremonies.",
     tech: ["C#", "SQL", "Angular", "Azure"],
   },
   {

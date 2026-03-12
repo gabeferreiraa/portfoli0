@@ -272,29 +272,9 @@ export default function Page() {
                   </div>
                 </section>
 
-                <footer aria-label="Site credits and contact information" className="max-w-md pb-16 text-sm text-foreground sm:pb-0">
+                 <footer aria-label="Site credits and contact information" className="max-w-md pb-16 text-sm text-foreground sm:pb-0">
                   <p>
-                    Loosely designed in{" "}
-                    <a
-                      href="https://www.figma.com/"
-                      className="font-medium text-foreground hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="Figma design tool (opens in a new tab)"
-                    >
-                      Figma
-                    </a>{" "}
-                    and coded in{" "}
-                    <a
-                      href="https://code.visualstudio.com/"
-                      className="font-medium text-foreground hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="Visual Studio Code editor (opens in a new tab)"
-                    >
-                      Visual Studio Code
-                    </a>{" "}
-                    by yours truly. Built with{" "}
+                    Built with{" "}
                     <a
                       href="https://nextjs.org/"
                       className="font-medium text-foreground hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
@@ -314,29 +294,8 @@ export default function Page() {
                     >
                       Tailwind CSS
                     </a>
-                    , deployed with{" "}
-                    <a
-                      href="https://vercel.com/"
-                      className="font-medium text-foreground hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="Vercel hosting platform (opens in a new tab)"
-                    >
-                      Vercel
-                    </a>
-                    . All text is set in the{" "}
-                    <a
-                      href="https://rsms.me/inter/"
-                      className="font-medium text-foreground hover:text-tertiary-mid focus-visible:text-tertiary-mid transition-colors"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="Inter typeface website (opens in a new tab)"
-                    >
-                      Inter
-                    </a>{" "}
-                    typeface.
+                    .
                   </p>
-
                   <address className="mt-6 not-italic">
                     <a
                       href="mailto:gferreira0404@gmail.com"
@@ -346,7 +305,6 @@ export default function Page() {
                       gferreira0404@gmail.com
                     </a>
                   </address>
-
                 </footer>
               </main>
             </div>

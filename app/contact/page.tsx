@@ -634,8 +634,6 @@ export default function ContactPage() {
                       gferreira0404@gmail.com
                     </a>
                   </address>
-
-                  
                 </footer>
               </main>
 
